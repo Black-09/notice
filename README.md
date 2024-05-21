@@ -1,1 +1,1 @@
-Estos es una prueba de como usar el anticheat halo\nAqui se publican mejoras o cosas relacionadas con\nel anticheat
+Estos es una prueba de como usar el anticheat halo\nAqui se publican mejoras o cosas relacionadas con\nel anticheats
