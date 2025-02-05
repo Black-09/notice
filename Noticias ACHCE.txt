@@ -1,61 +1,45 @@
-# Funcionamiento Básico del Anticheat 🚫🎮
+🚫🎮 FUNCIONAMIENTO DEL ANTICHEAT  
 
-## 1. Bloqueo de Herramientas Externas con "TopMost" ⬆️🖥️
+El objetivo de este sistema es evitar que los jugadores usen trampas en Halo Custom Edition, asegurando una experiencia justa para todos. 🔥  
 
-- **¿Qué es TopMost?**  
-  *TopMost* es una función que mantiene una ventana siempre visible en la parte superior de todas las demás.  
-  Por ejemplo, se usa para cubrir toda la pantalla y evitar que se abran programas externos como los **inyectores**.
+🛑 1. Bloqueo de Programas de Trampas con "TopMost" 🖥️  
 
-- **¿Para qué sirve en el anticheat?**  
-  Al cubrir la pantalla, se dificulta la apertura de inyectores, que son herramientas que permiten insertar código no autorizado en el juego para hacer trampas.
+- El anticheat usa una técnica llamada TopMost, que mantiene una ventana siempre visible y bloquea el acceso a otros programas mientras el juego está corriendo.  
+- Esto evita que los jugadores abran programas como inyectores de DLL, que se usan para modificar la memoria del juego y hacer trampas.  
 
----
+💡 Básicamente, el juego estará protegido porque no podrás abrir herramientas externas mientras juegas.  
 
-## 2. Uso de una Carpeta Temporal para Archivos del Juego 📁⏳
+📁 2. Carpeta Temporal para Archivos del Juego ⏳  
 
-- **¿Por qué se crea una carpeta temporal?**  
-  Se genera una carpeta temporal que contiene los archivos guardados del juego.  
-  Esto evita que los jugadores usen extensiones o modificaciones (como HAC2 Release y Chimera) que permitan ingresar al servidor sin pasar por el anticheat.
+- Normalmente, el juego guarda sus archivos en Mis Documentos\My Games\Halo CE, pero algunas extensiones como HAC2 Release y Chimera permiten a los jugadores volver a entrar al servidor sin el anticheat.  
+- Para evitarlo, el anticheat crea una carpeta temporal y mueve ahí los archivos necesarios del juego.  
+- Al cerrar el juego, la carpeta se elimina automáticamente, asegurando que siempre se usen archivos nuevos y sin modificaciones.  
 
-- **¿Qué se logra con esto?**  
-  Los archivos del juego se usan en un entorno controlado, y al cerrar el juego, la carpeta se borra.  
-  Esto obliga a que siempre se utilicen archivos nuevos y verificados.
+💡 Esto evita que los jugadores usen archivos alterados para saltarse el anticheat.  
 
----
+🗄️ 3. Base de Datos de Usuarios y Baneos 🔒  
 
-## 3. Gestión de Usuarios y Baneos mediante una Base de Datos 🗄️🔒
+- Cada jugador es identificado con un ID único basado en el hardware de su PC (UUID del BIOS).  
+- No es necesario registrarse, el anticheat obtiene este ID de forma automática.  
+- Si un jugador hace trampas, se le banea (se le bloquea el acceso al servidor).  
 
-- **Base de Datos de Usuarios:**  
-  Cada jugador se identifica automáticamente con un **ID único** basado en el hardware (por ejemplo, el UUID del BIOS).  
-  No es necesario que el jugador se registre, ya que el sistema lo identifica de forma automática.
+🚫 ¿Por qué no banear por IP?  
+  - Las VPNs permiten cambiar la IP fácilmente, lo que haría que los tramposos pudieran volver a entrar sin problema.  
+  - Con este sistema, si un jugador es baneado, su ID de hardware queda registrado en la base de datos, y ya no podrá ingresar, aunque cambie de IP o reinstale el juego.  
 
-- **¿Qué es un Baneo?**  
-  Un **baneo** es la medida de bloquear a un jugador que infringe las reglas, impidiendo su acceso al juego o al servidor.  
-  Si se detecta que un jugador hace trampas, se le impide el acceso, ya sea de forma temporal o permanente.
+💡 Esto hace que los baneos sean efectivos y permanentes para los tramposos.  
 
-- **¿Por qué no basar el baneo en la IP?**  
-  Las IPs pueden cambiar fácilmente usando **VPNs** (Redes Privadas Virtuales), que son servicios que permiten cambiar la dirección de conexión.  
-  Por ello, el sistema usa el ID único del hardware, lo que hace más difícil evadir el baneo.
+🔄 4. Actualización y Feedback de la Comunidad 💡  
 
----
+- El anticheat se actualizará constantemente para bloquear nuevas trampas que aparezcan en la comunidad.  
+- También se aceptan sugerencias y mejoras de los jugadores para hacerlo más seguro y efectivo.  
 
-## 4. Actualización y Retroalimentación Constante 🔄💡
+💬 ¿Tienes ideas o sugerencias? ¡Queremos mejorar este sistema contigo! 🚀  
 
-- **Actualización Regular:**  
-  El anticheat se actualizará de forma regular para estar al día con las técnicas de trampas conocidas en la comunidad.  
-  Así se garantiza que, aunque existan herramientas de trampas reutilizadas, el sistema se mantenga efectivo.
+📌 RESUMEN FINAL:  
+✅ Bloquea inyectores y programas externos con una ventana de seguridad.  
+✅ Usa una carpeta temporal para evitar el uso de archivos modificados.  
+✅ Gestiona baneos con un ID único de hardware, evitando el uso de VPNs.  
+✅ Se actualiza regularmente y acepta mejoras de la comunidad.  
 
-- **Espacio para Feedback:**  
-  Se invita a la comunidad a dar su opinión y sugerencias para mejorar el sistema.  
-  ¿Tienes ideas o comentarios? ¡Tu opinión es muy importante para seguir avanzando y fortaleciendo la seguridad!
-
----
-
-**Resumen Final:**  
-El anticheat se encarga de:
-- Bloquear herramientas externas mediante el uso de TopMost. ⬆️🛡️
-- Utilizar una carpeta temporal para garantizar que se usen archivos verificados del juego. 📁✅
-- Identificar a cada jugador con un ID único para gestionar los baneos de forma efectiva, sin depender de la IP. 🔒💻
-- Actualizarse regularmente y recibir feedback de la comunidad para mejorar continuamente. 🔄💡
-
-¡Este sistema busca asegurar una experiencia justa y protegida para todos los jugadores! 🎮🚀
+📢 ¡Con este sistema, el juego será más justo y protegido para todos! 🔥🎮  
